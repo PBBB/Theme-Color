@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
-</head>
-<body>
-    <strong>Hello World!</strong>
-</body>
+    <head>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" href="popup.css">
+                <script src="vue.global.js"></script>
+                <script type="module" src="popup.js"></script>
+                
+            </head>
+    <body>
+        <div id="event-handling">
+            <p>{{ message }}</p>
+            <button v-on:click="reverseMessage">反转 Message</button>
+        </div>
+    </body>
 </html>

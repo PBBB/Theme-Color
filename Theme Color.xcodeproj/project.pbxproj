@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B009282268A092000050B4A /* vue.global.js in Resources */ = {isa = PBXBuildFile; fileRef = 2B009281268A092000050B4A /* vue.global.js */; };
+		2B009283268A092000050B4A /* vue.global.js in Resources */ = {isa = PBXBuildFile; fileRef = 2B009281268A092000050B4A /* vue.global.js */; };
 		2BBCB8CC2684E3CD006E6009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB8CB2684E3CD006E6009 /* AppDelegate.swift */; };
 		2BBCB8CE2684E3CD006E6009 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCB8CD2684E3CD006E6009 /* SceneDelegate.swift */; };
 		2BBCB8D12684E3CD006E6009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBCB8CF2684E3CD006E6009 /* LaunchScreen.storyboard */; };
@@ -90,6 +92,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2B009281268A092000050B4A /* vue.global.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vue.global.js; sourceTree = "<group>"; };
 		2BBCB8B32684E3CB006E6009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		2BBCB8B42684E3CB006E6009 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		2BBCB8B52684E3CB006E6009 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -205,6 +208,7 @@
 				2BBCB8BF2684E3CD006E6009 /* background.js */,
 				2BBCB8C02684E3CD006E6009 /* content.js */,
 				2BBCB8C12684E3CD006E6009 /* popup.html */,
+				2B009281268A092000050B4A /* vue.global.js */,
 				2BBCB8C22684E3CD006E6009 /* popup.css */,
 				2BBCB8C32684E3CD006E6009 /* popup.js */,
 			);
@@ -418,6 +422,7 @@
 				2BBCB9062684E3CD006E6009 /* images in Resources */,
 				2BBCB9082684E3CD006E6009 /* manifest.json in Resources */,
 				2BBCB9042684E3CD006E6009 /* _locales in Resources */,
+				2B009282268A092000050B4A /* vue.global.js in Resources */,
 				2BBCB90C2684E3CD006E6009 /* content.js in Resources */,
 				2BBCB9122684E3CD006E6009 /* popup.js in Resources */,
 			);
@@ -433,6 +438,7 @@
 				2BBCB9072684E3CD006E6009 /* images in Resources */,
 				2BBCB9092684E3CD006E6009 /* manifest.json in Resources */,
 				2BBCB9052684E3CD006E6009 /* _locales in Resources */,
+				2B009283268A092000050B4A /* vue.global.js in Resources */,
 				2BBCB90D2684E3CD006E6009 /* content.js in Resources */,
 				2BBCB9132684E3CD006E6009 /* popup.js in Resources */,
 			);
