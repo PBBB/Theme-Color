@@ -208,9 +208,9 @@
 				2BBCB8BF2684E3CD006E6009 /* background.js */,
 				2BBCB8C02684E3CD006E6009 /* content.js */,
 				2BBCB8C12684E3CD006E6009 /* popup.html */,
-				2B009281268A092000050B4A /* vue.global.js */,
 				2BBCB8C22684E3CD006E6009 /* popup.css */,
 				2BBCB8C32684E3CD006E6009 /* popup.js */,
+				2B009281268A092000050B4A /* vue.global.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
