@@ -6,9 +6,9 @@ app.component('color-option', {
     },
     methods: {
         changeColor(color) {
-//            browser.tabs.getCurrent().then(tabInfo => {
-//                console.log("tanbinfo" + tabInfo);
-//            });
+            browser.tabs.getCurrent().then(currentTab => {
+                browser.tabs.sendMessage(currentTab.id, {color: color})
+            });
             browser.runtime.sendMessage({type: "Word count request"}).then(value => {
                 console.log("success" + value); // Success!
               }, reason => {

@@ -3,9 +3,9 @@
 //});
 
 browser.runtime.onMessage.addListener((request) => {
-    console.log("Received request: ", request);
+    changeColor(request.color)
 });
 
-//function changeColor(color) {
-//    document.querySelector("meta[name=theme-color]").setAttribute("content", color);
-//}
+function changeColor(color) {
+    document.querySelector("meta[name=theme-color]").setAttribute("content", color);
+}
